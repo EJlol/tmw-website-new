@@ -1,0 +1,88 @@
+body {
+	background-color: #eeeeee;
+    background-image: url('../images/background.png');
+	color: #332100;
+    font-family: 'Philosopher', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #31A637;
+    font-family: 'Germania One', cursive;
+    font-size: 6em;
+    margin: 0;
+    text-shadow: #000 1px 0 0, #000 -1px 0 0, #000 0 1px 0, #000 0 -1px;
+}
+
+h1 img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    background-color: #ba7a58;
+    border-bottom: 1px solid #332100;
+    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 1em;
+}
+
+header .subtitle {
+    font-style: italic;
+}
+
+nav ul,
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1em auto 0 auto;
+    max-width: 66em;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: #cba083;
+    border: 1px solid #332100;
+    border-radius: 0.5em;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 0.5em;
+    max-width: 10em;
+}
+
+nav ul li:hover {
+    background-color: #dbbba4;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5em;
+}
+
+section {
+    background-color: #e1d6cf;
+    border: 1px solid #332100;
+    border-radius: 1em;
+    margin: 1em 0;
+    overflow: hidden;
+    padding: 0 1em 1em 1em;
+    width: 100%;
+}
+
+section h2 {
+    background-color: #f2ebe7;
+    border-bottom: 1px solid #332100;
+    margin: 0 -1em 1rem -1em;
+    padding: 0 1em;
+}
+
+#screenshots article {
+    text-align: center;
+}
